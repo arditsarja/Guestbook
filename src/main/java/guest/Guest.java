@@ -28,6 +28,6 @@ public class Guest implements Serializable {
     // String Representation:
     @Override
     public String toString() {
-        return name + " (signed on " + signingDate + ")";
+        return name + " (signed on " + signingDate + ") with id "+id;
     }
 }

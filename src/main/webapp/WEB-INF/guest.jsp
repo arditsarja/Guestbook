@@ -2,7 +2,8 @@
 <%@page import="guest.*"%>
  
 <jsp:useBean id="guestDao" type="guest.GuestDao" scope="request" />
- 
+<jsp:useBean id="studentDao" type="guest.StudentRepository" scope="request" />
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
     "http://www.w3.org/TR/html4/loose.dtd">
  
@@ -16,10 +17,19 @@
             Name: <input type="text" name="name" />
             <input type="submit" value="Add" />
         </form>
- 
+
+        <form method="POST" action="student.html">
+            Name: <input type="text" name="name" />
+            <input type="submit" value="Add" />
+        </form>
+
         <hr><ol> 
         <% for (Guest guest : guestDao.getAllGuests()) { %>
             <li> <%= guest %> </li>
+        <% } %>
+        </ol><hr><hr><ol>
+        <% for (Student student : studentDao.getAll()) { %>
+            <li> <%= student %> </li>
         <% } %>
         </ol><hr>
  
