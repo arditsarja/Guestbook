@@ -35,4 +35,10 @@ public class StudentController {
         // Prepare the result view (guest.jsp):
         return repository.findById(id).toString();
     }
+    @RequestMapping(value="/hello")
+    public String openhellopage() {
+        // Handle a new guest (if any):
+        // Prepare the result view (guest.jsp):
+        return "hello.jsp";
+    }
 }
