@@ -56,8 +56,12 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:3.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:3.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:unknown" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:unknown" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.8" level="project" />
     <orderEntry type="library" name="Maven: cglib:cglib:2.2" level="project" />
     <orderEntry type="library" name="Maven: asm:asm:3.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.8" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.6.10" level="project" />
   </component>
 </module>
